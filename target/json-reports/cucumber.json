@@ -1,0 +1,759 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-24T19:51:37.369Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "TC08_kullanici walmartta urun arar",
+        "description": "",
+        "id": "walmart-urun-arama;tc08-kullanici-walmartta-urun-arar;test-verileri;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1459000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25529000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"https://walmart.com\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://walmart.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.EbaydaAramaStepDefinitions.kullanici_sayfasina_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21074000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici walmart aramakutusuna \"calculator\" yazar ve arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"calculator\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmart_aramakutusuna_yazar_ve_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1243000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici walmart sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmart_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@walmart"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T19:52:26.733Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "TC08_kullanici walmartta urun arar",
+        "description": "",
+        "id": "walmart-urun-arama;tc08-kullanici-walmartta-urun-arar;test-verileri;3",
+        "after": [
+          {
+            "result": {
+              "duration": 985000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6834000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"https://walmart.com\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://walmart.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.EbaydaAramaStepDefinitions.kullanici_sayfasina_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19259000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici walmart aramakutusuna \"watch\" yazar ve arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"watch\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmart_aramakutusuna_yazar_ve_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 843000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici walmart sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmart_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@walmart"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T19:52:54.683Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "TC08_kullanici walmartta urun arar",
+        "description": "",
+        "id": "walmart-urun-arama;tc08-kullanici-walmartta-urun-arar;test-verileri;4",
+        "after": [
+          {
+            "result": {
+              "duration": 809000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4150000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"https://walmart.com\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://walmart.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.EbaydaAramaStepDefinitions.kullanici_sayfasina_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11525000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici walmart aramakutusuna \"flower\" yazar ve arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"flower\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmart_aramakutusuna_yazar_ve_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici walmart sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmart_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@walmart"
+          }
+        ]
+      }
+    ],
+    "name": "Walmart Urun Arama",
+    "description": "",
+    "id": "walmart-urun-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/walmart.feature",
+    "tags": [
+      {
+        "name": "@walmart",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+] },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1057000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici amazon dropdownda \"Books\" secer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Books\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_dropdownda_secer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17642000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici amazon arama kutusuna \"Miserables\" yazar ve arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Miserables\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_arama_kutusuna_yazar_ve_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1100000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici amazon sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@birdenfazlaexamples"
+          },
+          {
+            "name": "@amazon"
+          }
+        ]
+      }
+    ],
+    "name": "Amazonda urun arama",
+    "description": "",
+    "id": "amazonda-urun-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/amazonexamples.feature",
+    "tags": [
+      {
+        "name": "@birdenfazlaexamples",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@amazon",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 22
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Oncesinde Calisacek Method (Before Method)",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9281000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T19:50:59.734Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "TC02_kullanici amazonda arama yapar",
+        "description": "",
+        "id": "amazon-arama;tc02-kullanici-amazonda-arama-yapar",
+        "after": [
+          {
+            "result": {
+              "duration": 1948000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13384000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici arama kutusuna headphones yazar ve arar",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_arama_kutusuna_headphones_yazar_ve_arar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 566000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici kactane sonuc buldugunu ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_kactane_sonuc_buldugunu_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "@amazonheadphones"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Oncesinde Calisacek Method (Before Method)",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3680000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T19:51:24.922Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "TC03_kullanici amazonda arama yapar",
+        "description": "",
+        "id": "amazon-arama;tc03-kullanici-amazonda-arama-yapar",
+        "after": [
+          {
+            "result": {
+              "duration": 1804000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1271000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "kullanici arama kutusuna camera yazar ve arar",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_arama_kutusuna_camera_yazar_ve_arar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1479000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "kullanici sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "@amazoncamera"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Arama",
+    "description": "",
+    "id": "amazon-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/amazonsearch.feature",
+    "tags": [
+      {
+        "name": "@amazon",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Oncesinde Calisacak Method (Before Method)",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5352000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici amazon sitesine gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitionsDeneme.kullanici_amazon_sitesine_gider()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T19:51:33.177Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "TC002 kullanici amazonda arama yapar",
+        "description": "",
+        "id": "amazon-arama-deneme;tc002-kullanici-amazonda-arama-yapar",
+        "after": [
+          {
+            "result": {
+              "duration": 997000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7135000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici arama kutusuna glass yazar ve arar",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitionsDeneme.kullanici_arama_kutusuna_glass_yazar_ve_arar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici sonucu ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitionsDeneme.kullanici_sonucu_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@deneme_amazon_arama"
+          },
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "@deneme_amazon_arama_kitap01"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Oncesinde Calisacak Method (Before Method)",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3017000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici amazon sitesine gider",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitionsDeneme.kullanici_amazon_sitesine_gider()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T19:51:46.945Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "TC002 kullanici amazonda arama yapar",
+        "description": "",
+        "id": "amazon-arama-deneme;tc002-kullanici-amazonda-arama-yapar",
+        "after": [
+          {
+            "result": {
+              "duration": 2205000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13636000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "kullanici arama kutusuna kitap02 yazar ve arar",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitionsDeneme.kullanici_arama_kutusuna_kitap02_yazar_ve_arar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1416000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "kullanici sonucu ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitionsDeneme.kullanici_sonucu_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@deneme_amazon_arama"
+          },
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "@deneme_amazon_arama_kitap02"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Arama Deneme",
+    "description": "",
+    "id": "amazon-arama-deneme",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/amazonsearchdeneme.feature",
+    "tags": [
+      {
+        "name": "@deneme_amazon_arama",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@amazon",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 22
+        }
+      }
+    ]
+  }
+]
