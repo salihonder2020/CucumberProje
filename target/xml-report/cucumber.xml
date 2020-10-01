@@ -1,52 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="95.577">
-<testcase classname="Walmart Urun Arama" name="TC08_kullanici walmartta urun arar" time="49.352">
-<system-out><![CDATA[Given kullanici "https://walmart.com" sayfasina gider.......................passed
-And kullanici walmart aramakutusuna "calculator" yazar ve arar..............passed
-Then kullanici walmart sonuc sayisini ekrana yazdirir.......................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="30.228">
+    <testcase classname="Koala Palace" name="TC25_kullanici hotellist sayfasinda code girerek hotel arar" time="29.399">
+        <system-out><![CDATA[Given kullanici koalapalace admin sayfasina gider...........................passed
+And kullanici kullaniciadi ve sifresini girer...............................passed
+Then kullanici giris islemini gerceklestirir................................passed
+Given kullanici hotellist sayfasina gider...................................passed
+And kullanici hotellist code bolumune "-10" girer...........................passed
+And kullanici hotellist search butonuna tiklar..............................passed
+Then kullanici hotellist sonuc bolumunde kayit bulunamadi yazisini gorur....passed
 ]]></system-out>
-</testcase>
-<testcase classname="Walmart Urun Arama" name="TC08_kullanici walmartta urun arar 2" time="27.923">
-<system-out><![CDATA[Given kullanici "https://walmart.com" sayfasina gider.......................passed
-And kullanici walmart aramakutusuna "watch" yazar ve arar...................passed
-Then kullanici walmart sonuc sayisini ekrana yazdirir.......................passed
-]]></system-out>
-</testcase>
-<testcase classname="Walmart Urun Arama" name="TC08_kullanici walmartta urun arar 3" time="16.536">
-<system-out><![CDATA[Given kullanici "https://walmart.com" sayfasina gider.......................passed
-And kullanici walmart aramakutusuna "flower" yazar ve arar..................passed
-Then kullanici walmart sonuc sayisini ekrana yazdirir.......................passed
-]]></system-out>
-</testcase>
-</testsuite>
-i amazon "http://amazon.com" sayfasina gider..................passed
-And kullanici amazon dropdownda "Books" secer...............................passed
-And kullanici amazon arama kutusuna "Miserables" yazar ve arar..............passed
-Then kullanici amazon sonuc sayisini ekrana yazdirir........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Amazon Arama" name="TC02_kullanici amazonda arama yapar" time="25.179">
-<system-out><![CDATA[Given kullanici amazon sayfasina gider......................................passed
-And kullanici arama kutusuna headphones yazar ve arar.......................passed
-Then kullanici kactane sonuc buldugunu ekrana yazdirir......................passed
-]]></system-out>
-</testcase>
-<testcase classname="Amazon Arama" name="TC03_kullanici amazonda arama yapar" time="8.234">
-<system-out><![CDATA[Given kullanici amazon sayfasina gider......................................passed
-And kullanici arama kutusuna camera yazar ve arar...........................passed
-Then kullanici sonuc sayisini ekrana yazdirir...............................passed
-]]></system-out>
-</testcase>
-<testcase classname="Amazon Arama Deneme" name="TC002 kullanici amazonda arama yapar" time="13.757">
-<system-out><![CDATA[Given kullanici amazon sitesine gider.......................................passed
-And kullanici arama kutusuna glass yazar ve arar............................passed
-Then kullanici sonucu ekrana yazdirir.......................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Amazon Arama Deneme" name="TC002 kullanici amazonda arama yapar 2" time="20.274">
-<system-out><![CDATA[Given kullanici amazon sitesine gider.......................................passed
-And kullanici arama kutusuna kitap02 yazar ve arar..........................passed
-Then kullanici sonucu ekrana yazdirir.......................................passed
-]]></system-out>
-</testcase>
+    </testcase>
 </testsuite>

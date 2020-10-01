@@ -24,5 +24,11 @@ public class Hooks {
         if(scenario.isFailed()){
             scenario.embed(screenshot , "image/png");
         }
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        Driver.closeDriver();
     }
 }
